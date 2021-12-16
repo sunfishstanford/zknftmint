@@ -8,7 +8,8 @@ snarkjsPath: "./node_modules/snarkjs/build/cli.cjs"
 circomRuntimePath: "./node_modules/circom_runtime"
 ffiasmPath: "./node_modules/ffiasm"
 
-circomFlags: "--c --r1cs --sym --wasm --wat"
+circomFlags: "--r1cs --sym --wasm --wat"
+# circomFlags: "--c --r1cs --sym --wasm --wat"
 
 circuits:
 - template: "./circom/NftMint.circom"
